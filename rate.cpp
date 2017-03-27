@@ -1,10 +1,10 @@
 #include <cmath>
 #include "rate.h"
-float rate::Ra_prime(float Sa)
+int rate::Ra_prime(float Sa)
 {
    return Ra + K * (Sa - Ea());
 } 
-float rate::Rb_prime(float Sb)
+int rate::Rb_prime(float Sb)
 {
    return Rb + K * (Sb - Eb());
 }

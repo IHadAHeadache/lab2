@@ -5,4 +5,4 @@ main.o: main.cpp rate.h
 rate.o: rate.cpp rate.h
 	g++ -c rate.cpp
 clean:
-	rm main*.o
+	rm main *.o
